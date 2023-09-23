@@ -10915,6 +10915,8 @@ with pkgs;
 
   mpage = callPackage ../tools/text/mpage { };
 
+  mpigdb = callPackage ../development/tools/misc/mpigdb { };
+
   mprime = callPackage ../tools/misc/mprime { };
 
   mpw = callPackage ../tools/security/mpw { };

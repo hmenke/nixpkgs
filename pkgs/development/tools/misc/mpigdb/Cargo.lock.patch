@@ -1,0 +1,13 @@
+diff --git a/Cargo.lock b/Cargo.lock
+index 9eb6a35..1a94dd7 100644
+--- a/Cargo.lock
++++ b/Cargo.lock
+@@ -48,7 +48,7 @@ checksum = "ffbee8634e0d45d258acb448e7eaab3fce7a0a467395d4d9f228e3c1f01fb2e4"
+ 
+ [[package]]
+ name = "mpigdb"
+-version = "0.4.1"
++version = "0.5.0"
+ dependencies = [
+  "anyhow",
+  "hostname",
