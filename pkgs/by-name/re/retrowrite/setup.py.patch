@@ -1,0 +1,20 @@
+diff --git a/setup.py b/setup.py
+index 1693497..e94c789 100644
+--- a/setup.py
++++ b/setup.py
+@@ -1,4 +1,4 @@
+-from setuptools import setup
++from setuptools import setup, find_packages
+ from sys import version_info
+ 
+ setup(
+@@ -9,8 +9,7 @@ setup(
+     include_package_data=True,
+     url='https://github.com/hexhive/retrowrite/',
+     description='Retrowrite: A binary rewriting framework',
+-    packages=['retrowrite',
+-              ],
++    packages=find_packages(exclude=['tests']),
+     install_requires=[
+         'archinfo',
+         'pyelftools',
